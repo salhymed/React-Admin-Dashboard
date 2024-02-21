@@ -28,6 +28,7 @@ a {
   padding: 5px 20px;
   background-color: $dark-bg;
   height: 100vh;
+  overflow-y: auto;
   border-right: 1px solid $soft-bg;
 }
 
