@@ -123,3 +123,41 @@ export const menu = [
         ]
     }
 ]
+
+export const deals = [
+    {
+        id: 1,
+        img:"images/img1.jpg",
+        username: "samed",
+        email: "samed@mail.com",
+        amount: 34.77
+    },
+    {
+        id: 2,
+        img:"images/img2.jpg",
+        username: "John Doe",
+        email: "johdoe@mail.com",
+        amount: 34.77
+    },
+    {
+        id: 3,
+        img:"images/img3.jpg",
+        username: "Hale",
+        email: "hale@mail.com",
+        amount: 34.77
+    },
+    {
+        id: 4,
+        img:"images/img4.jpg",
+        username: "Zoe",
+        email: "zoe@mail.com",
+        amount: 34.77
+    },
+    {
+        id: 5,
+        img:"images/img5.jpg",
+        username: "Adam",
+        email: "adam@mail.com",
+        amount: 34.77
+    },
+]

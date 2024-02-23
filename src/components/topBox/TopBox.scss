@@ -1,0 +1,52 @@
+@import '../../styles/variables.scss';
+
+.deals {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    .deal {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        border-bottom: 1px solid $soft-bg;
+        padding: 1rem 0;
+
+        .amount {
+            font-size: 1rem;
+        }
+
+        .user {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+
+            img {
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                font-weight: 200;
+
+                span:first-child {
+                    font-weight: 600;
+                }
+
+                span:last-child {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+}
